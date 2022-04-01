@@ -1,0 +1,23 @@
+{
+	"port":4201,
+	"host":"localhost",
+	"overrides":[
+		"log","error","group","groupEnd",
+		"warn","assert","clear","debug","info",
+		"table","dir","count","countReset"
+	],
+	"maxDepth":5,
+	"logDelay":100,
+	"openDelay":4000,
+	"reconnectDelay":1000,
+	"reconnectTimeout":30000,
+	"chunck":4096,
+	"traceLabel":"trace",
+	"policy":"post",
+	"filesName":"message",
+	"styles":{
+		"traceLabel":"color:#ccc",
+		"traceFirst":"color:#acf",
+		"traceRow":"color:#0ab"
+	}
+}
